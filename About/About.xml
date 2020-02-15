@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Nuclear Reactor</name>
+  <author>Kyle</author>
+  <supportedVersions>
+    <li>1.0</li>
+  </supportedVersions>
+  <description>V1.0
+    This mod adds a nuclear reactor, a power source that can keep your colony running off of rocks.
+  </description>
+</ModMetaData>
