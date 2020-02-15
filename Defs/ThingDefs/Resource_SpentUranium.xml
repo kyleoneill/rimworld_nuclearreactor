@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
     <ThingDef ParentName="ResourceBase">
-        <defName>SpentUranium</defName>
+        <defName>Spenturanium</defName>
         <label>spent uranium</label>
         <description>This material is the waste product from a nuclear reaction. It should be disposed of.</description>
         <graphicData>

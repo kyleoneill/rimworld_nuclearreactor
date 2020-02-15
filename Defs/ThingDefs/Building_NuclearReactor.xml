@@ -15,9 +15,7 @@
       </shadowData>
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <pathCost>150</pathCost>
-    <blockWind>true</blockWind>
+    <passability>Impassable</passability>
     <fillPercent>1.0</fillPercent>
     <rotatable>false</rotatable>
     <statBases>
@@ -25,10 +23,11 @@
       <WorkToBuild>2500</WorkToBuild>
       <Flammability>1.0</Flammability>
       <Beauty>10</Beauty>
+      <Mass>100</Mass>
     </statBases>
     <tickerType>Normal</tickerType>
     <canOverlapZones>false</canOverlapZones>
-    <size>(3,3)</size>
+    <size>(2,2)</size>
     <costList>
       <Steel>100</Steel>
       <Plasteel>25</Plasteel>
@@ -45,6 +44,7 @@
       <li Class="CompProperties_Refuelable">
         <fuelConsumptionRate>0.25</fuelConsumptionRate>
         <fuelCapacity>100.0</fuelCapacity>
+        <consumeFuelOnlyWhenUsed>false</consumeFuelOnlyWhenUsed>
         <fuelFilter>
           <thingDefs>
             <li>Uranium</li>
@@ -61,10 +61,9 @@
       </li>
       <li Class="CompProperties_Breakdownable"/>
       <li Class="CompProperties_Spawner">
-        <requiresPower>true</requiresPower>
-        <thingToSpawn>SpentUranium</thingToSpawn>
+        <thingToSpawn>Spenturanium</thingToSpawn>
         <spawnCount>10</spawnCount>
-        <spawnIntervalRange><min>300000</min><max>300000</max></spawnIntervalRange>
+        <spawnIntervalRange><min>3000</min><max>3000</max></spawnIntervalRange>
         <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
         <showMessageIfOwned>true</showMessageIfOwned>
       </li>
