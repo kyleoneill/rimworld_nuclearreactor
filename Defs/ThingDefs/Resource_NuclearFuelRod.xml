@@ -14,11 +14,11 @@
     <statBases>
         <MaxHitPoints>70</MaxHitPoints>
         <MarketValue>50</MarketValue>
-        <Mass>0.6</Mass>
+        <Mass>1.0</Mass>
         <Flammability>0.6</Flammability>
         <DeteriorationRate>2.0</DeteriorationRate>
         <WorkToMake>100</WorkToMake>
-	</statBases>
+	  </statBases>
     <intricate>true</intricate>
     <thingCategories>
       <li>Manufactured</li>

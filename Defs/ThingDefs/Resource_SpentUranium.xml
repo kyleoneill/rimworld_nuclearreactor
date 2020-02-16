@@ -5,51 +5,19 @@
         <label>depleted fuel rod</label>
         <description>This material is the waste product from a nuclear reaction. It should be disposed of.</description>
         <graphicData>
-            <texPath>Things/Item/Resource/Uranium</texPath>
+            <texPath>Things/Item/Resource/SpentNuclearFuelRod</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
+        <stackLimit>50</stackLimit>
         <useHitPoints>false</useHitPoints>
         <soundInteract>Metal_Drop</soundInteract>
         <soundDrop>Metal_Drop</soundDrop>
         <statBases>
-            <Mass>1</Mass>
-            <StuffPower_Armor_Sharp>1.08</StuffPower_Armor_Sharp>
-            <StuffPower_Armor_Blunt>0.54</StuffPower_Armor_Blunt>
-            <StuffPower_Armor_Heat>0.9</StuffPower_Armor_Heat>
-            <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
-            <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
-            <SharpDamageMultiplier>1.1</SharpDamageMultiplier>
-            <BluntDamageMultiplier>1.5</BluntDamageMultiplier>
-        </statBases>
+            <MarketValue>0</MarketValue>
+            <Mass>0.6</Mass>
+	    </statBases> 
         <thingCategories>
             <li>Manufactured</li>
         </thingCategories>
-        <deepCommonality>1</deepCommonality>
-        <deepCountPerPortion>10</deepCountPerPortion>
-        <deepLumpSizeRange>
-            <min>4</min>
-            <max>10</max>
-        </deepLumpSizeRange>
-        <stuffProps>
-            <categories>
-                <li>Metallic</li>
-            </categories>
-            <commonality>0.05</commonality>
-            <color>(100,100,100)</color>
-            <constructEffect>ConstructMetal</constructEffect>
-            <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
-            <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
-            <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
-            <statFactors>
-                <MaxHitPoints>2.5</MaxHitPoints>
-                <WorkToMake>1.9</WorkToMake>
-                        <WorkToBuild>1.9</WorkToBuild>
-                        <Beauty>0.5</Beauty>
-                <Flammability>0.0</Flammability>
-                <DoorOpenSpeed>0.75</DoorOpenSpeed>
-                <MeleeWeapon_CooldownMultiplier>1.10</MeleeWeapon_CooldownMultiplier>
-            </statFactors>
-            <smeltable>true</smeltable>
-        </stuffProps>
     </ThingDef>
 </Defs>
