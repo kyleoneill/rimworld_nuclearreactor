@@ -12,15 +12,33 @@
     <soundDrop>Standard_Drop</soundDrop>
     <stackLimit>50</stackLimit>
     <statBases>
-      <MaxHitPoints>70</MaxHitPoints>
-      <MarketValue>50</MarketValue>
-      <Mass>0.6</Mass>
-      <Flammability>0.6</Flammability>
-			<DeteriorationRate>2.0</DeteriorationRate>
-		</statBases>
+        <MaxHitPoints>70</MaxHitPoints>
+        <MarketValue>50</MarketValue>
+        <Mass>0.6</Mass>
+        <Flammability>0.6</Flammability>
+        <DeteriorationRate>2.0</DeteriorationRate>
+        <WorkToMake>100</WorkToMake>
+	</statBases>
     <intricate>true</intricate>
     <thingCategories>
       <li>Manufactured</li>
     </thingCategories>
+    <recipeMaker>
+        <workSpeedStat>SmeltingSpeed</workSpeedStat>
+        <effectWorking>Smelt</effectWorking>
+        <soundWorking>Recipe_Smelt</soundWorking>
+        <workSkill>Crafting</workSkill>
+        <recipeUsers>
+            <li>ElectricSmithy</li>
+            <li>FueledSmithy</li>
+        </recipeUsers>
+        <skillRequirements>
+            <Crafting>5</Crafting>
+        </skillRequirements>
+    </recipeMaker>
+    <costList>
+        <Steel>10</Steel>
+        <Uranium>5</Uranium>
+    </costList>
   </ThingDef>
 </Defs>

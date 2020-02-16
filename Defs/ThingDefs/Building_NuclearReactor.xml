@@ -63,7 +63,7 @@
       <li Class="CompProperties_Spawner">
         <thingToSpawn>DepletedFuelRod</thingToSpawn>
         <spawnCount>10</spawnCount>
-        <spawnIntervalRange><min>3000</min><max>3000</max></spawnIntervalRange>
+        <spawnIntervalRange><min>300000</min><max>300000</max></spawnIntervalRange>
         <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
         <showMessageIfOwned>true</showMessageIfOwned>
       </li>
