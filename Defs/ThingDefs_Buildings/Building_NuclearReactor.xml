@@ -61,7 +61,7 @@
       </li>
       <li Class="CompProperties_Breakdownable"/>
       <li Class="CompProperties_Spawner">
-        <thingToSpawn>DepletedFuelRod</thingToSpawn>
+        <thingToSpawn>DepletedNuclearFuelRod</thingToSpawn>
         <spawnCount>10</spawnCount>
         <spawnIntervalRange><min>300000</min><max>300000</max></spawnIntervalRange>
         <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>

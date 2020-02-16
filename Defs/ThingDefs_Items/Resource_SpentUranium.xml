@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
     <ThingDef ParentName="ResourceBase">
-        <defName>DepletedFuelRod</defName>
-        <label>depleted fuel rod</label>
+        <defName>DepletedNuclearFuelRod</defName>
+        <label>depleted nuclear fuel rod</label>
         <description>This material is the waste product from a nuclear reaction. It should be disposed of.</description>
         <graphicData>
             <texPath>Things/Item/Resource/SpentNuclearFuelRod</texPath>

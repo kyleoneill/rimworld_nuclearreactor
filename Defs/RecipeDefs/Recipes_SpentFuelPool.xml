@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <RecipeDef>
+        <defName>StoreSpentFuel</defName>
+        <label>store spent fuel</label>
+        <description>Store spent nuclear fuel. Colonists of the future can figure out a better way to dispose of it.</description>
+        <jobString>Storing fuel.</jobString>
+        <workAmount>60</workAmount>
+        <workSpeedStat>UnskilledLaborSpeed</workSpeedStat>
+        <requiredGiverWorkType>Hauling</requiredGiverWorkType>
+
+        <effectWorking>BurnDrug</effectWorking>
+        <soundWorking>Recipe_Cremate</soundWorking>
+        <conceptLearned>DrugBurning</conceptLearned>
+
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>DepletedNuclearFuelRod</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>DepletedNuclearFuelRod</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <workSkill>Crafting</workSkill>
+    </RecipeDef>
+</Defs>
