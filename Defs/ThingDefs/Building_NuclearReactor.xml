@@ -47,7 +47,7 @@
         <consumeFuelOnlyWhenUsed>false</consumeFuelOnlyWhenUsed>
         <fuelFilter>
           <thingDefs>
-            <li>Uranium</li>
+            <li>NuclearFuelRod</li>
           </thingDefs>
         </fuelFilter>
       </li>
@@ -61,7 +61,7 @@
       </li>
       <li Class="CompProperties_Breakdownable"/>
       <li Class="CompProperties_Spawner">
-        <thingToSpawn>Spenturanium</thingToSpawn>
+        <thingToSpawn>DepletedFuelRod</thingToSpawn>
         <spawnCount>10</spawnCount>
         <spawnIntervalRange><min>3000</min><max>3000</max></spawnIntervalRange>
         <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
