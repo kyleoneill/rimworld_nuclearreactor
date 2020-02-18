@@ -20,7 +20,7 @@
                         <li>DepletedNuclearFuelRod</li>
                     </thingDefs>
                 </filter>
-                <count>1</count>
+                <count>10</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>

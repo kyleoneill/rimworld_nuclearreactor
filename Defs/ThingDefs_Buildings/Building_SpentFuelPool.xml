@@ -6,8 +6,8 @@
     <description>A pool of water designed for long term storage of spent nuclear fuel.</description>
     <thingClass>Building_WorkTable_HeatPush</thingClass>
     <graphicData>
-      <texPath>Things/Building/Production/Crematorium</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
+      <texPath>Things/Building/Production/SpentFuelPool</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(3,2)</drawSize>
       <shadowData>
