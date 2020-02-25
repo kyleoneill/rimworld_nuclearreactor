@@ -6,7 +6,7 @@
         <description>Store spent nuclear fuel. Colonists of the future can figure out a better way to dispose of it.</description>
         <jobString>Storing fuel.</jobString>
         <workAmount>60</workAmount>
-        <workSpeedStat>UnskilledLaborSpeed</workSpeedStat>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <requiredGiverWorkType>Hauling</requiredGiverWorkType>
 
         <effectWorking>BurnDrug</effectWorking>
