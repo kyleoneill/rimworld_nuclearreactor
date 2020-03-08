@@ -23,22 +23,5 @@
     <thingCategories>
       <li>Manufactured</li>
     </thingCategories>
-    <recipeMaker>
-        <workSpeedStat>SmeltingSpeed</workSpeedStat>
-        <effectWorking>Smelt</effectWorking>
-        <soundWorking>Recipe_Smelt</soundWorking>
-        <workSkill>Crafting</workSkill>
-        <recipeUsers>
-            <li>ElectricSmithy</li>
-            <li>FueledSmithy</li>
-        </recipeUsers>
-        <skillRequirements>
-            <Crafting>5</Crafting>
-        </skillRequirements>
-    </recipeMaker>
-    <costList>
-        <Steel>10</Steel>
-        <Uranium>5</Uranium>
-    </costList>
   </ThingDef>
 </Defs>

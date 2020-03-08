@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <RecipeDef>
+        <defName>CraftNuclearFuel</defName>
+        <label>craft a nuclear fuel rod</label>
+        <description>Craft a nuclear fuel rod for use in a nuclear reactor.</description>
+        <jobString>Crafting a nuclear fuel rod.</jobString>
+        <workAmount>100</workAmount>
+        <workSpeedStat>SmeltingSpeed</workSpeedStat>
+        <effectWorking>Smelt</effectWorking>
+        <soundWorking>Recipe_Smelt</soundWorking>
+        <workSkill>Crafting</workSkill>
+        <researchPrerequisite>ShipReactor</researchPrerequisite>
+        <recipeUsers>
+            <li>ElectricSmithy</li>
+            <li>FueledSmithy</li>
+        </recipeUsers>
+        <skillRequirements>
+            <Crafting>5</Crafting>
+        </skillRequirements>
+
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Uranium</li>
+                    </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+                <li>Uranium</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <NuclearFuelRod>1</NuclearFuelRod>
+        </products>
+    </RecipeDef>
+
+    <RecipeDef>
+        <defName>CraftNuclearFuelBulk</defName>
+        <label>craft nuclear fuel rod x10</label>
+        <description>Craft 10 nuclear fuel rods for use in a nuclear reactor.</description>
+        <jobString>Crafting 10 nuclear fuel rods.</jobString>
+        <workAmount>1000</workAmount>
+        <workSpeedStat>SmeltingSpeed</workSpeedStat>
+        <effectWorking>Smelt</effectWorking>
+        <soundWorking>Recipe_Smelt</soundWorking>
+        <workSkill>Crafting</workSkill>
+        <researchPrerequisite>ShipReactor</researchPrerequisite>
+        <recipeUsers>
+            <li>ElectricSmithy</li>
+            <li>FueledSmithy</li>
+        </recipeUsers>
+        <skillRequirements>
+            <Crafting>5</Crafting>
+        </skillRequirements>
+
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Uranium</li>
+                    </thingDefs>
+                </filter>
+                <count>50</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+                <li>Uranium</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <NuclearFuelRod>10</NuclearFuelRod>
+        </products>
+    </RecipeDef>
+
+</Defs>

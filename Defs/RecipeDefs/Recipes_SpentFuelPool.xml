@@ -8,11 +8,10 @@
         <workAmount>60</workAmount>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <requiredGiverWorkType>Hauling</requiredGiverWorkType>
-
         <effectWorking>BurnDrug</effectWorking>
         <soundWorking>Recipe_Cremate</soundWorking>
         <conceptLearned>DrugBurning</conceptLearned>
-
+        <researchPrerequisite>ShipReactor</researchPrerequisite>
         <ingredients>
             <li>
                 <filter>
